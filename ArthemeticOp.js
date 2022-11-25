@@ -1,7 +1,7 @@
 const prompt=require("prompt-sync")({sigint:true});
-var a=parseInt(prompt("Enter 1st Value"));
-var b=parseInt(prompt("Enter 2nd Value"));
-var c=parseInt(prompt("Enter 3rd Value"));
+var a=parseInt(prompt("Enter 1st Value: "));
+var b=parseInt(prompt("Enter 2nd Value: "));
+var c=parseInt(prompt("Enter 3rd Value: "));
 
 var num1=a+b*c;
 var num2=c+a/b;
